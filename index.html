@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Scrolling Nav - Start Bootstrap Template</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+<style>
+{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 750px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+    </head>
+
+
+<!-- Google Font Loading -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<!-- google font end -->
+
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+            <div class="container px-4">
+                <img src="photos/logo.png" class="img-fluid" width="50px" height="50px">
+                <a class="navbar-brand" href="#page-top">Don8</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#comp">Competitor Reviews</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#map">Affinity Map</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#persona">Personas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#mood">Moodboard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#test">Usability Test</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#low">Low-Fidelity Feedback</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#high">High-Fidelity Prototype</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+ 
+ <!-- carousel begins -->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <img src="photos/bg.jpg" alt="Creative Source Logo" class="img-fluid">
+        <div class="container">
+          <div class="carousel-caption text-start" style="top: 20rem">
+             
+            <h1>Don8</h1>
+            <p>Removing barriers from the donation process</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- end of carousel -->
+
+        <!-- Header-->
+       <!-- <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">Welcome to Scrolling Nav</h1>
+                <p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>
+                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
+            </div>
+        </header> -->
+
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Design Problem Statement</h2>
+                        <p class="lead">As we move forward in the digital age, users need a better online presence when it comes to sustainable shopping so that they can quickly share information on local consignment places near them.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- competitor section-->
+        <section class="bg-light" id="comp">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+
+                        <!-- feature begins -->
+                        <main>
+  <h1 class="visually-hidden">Features examples</h1>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Competitor Reviews</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="photos/sa.png" class="img-fluid" width="50px" height="50px">
+        </div>
+        <h3 class="fs-2">The Salvation Army</h3>
+        <h6>Pros:</h6>
+        <ul>
+            <li>Anticipates user's wants</li>
+        </ul>
+         <h6>Cons:</h6>
+        <ul>
+            <li>Hard and time consuming to find information if it is not in a single location</li>
+            <li>Finding local ways to donate can be difficult</li>
+            <li>Lack the details needed to successfully carry out a donation</li>
+            <li>Locations do not load on the website when a zip code is entered</li>
+        </ul>
+        <h6>What we've learned:</h6>
+        <ul>
+            <li>Make sure to anticipate how the user will interact with the interface through card sorting activities within our target user group</li>
+        </ul>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+           <img src="photos/fb.png" class="img-fluid" width="50px" height="50px">
+        </div>
+        <h3 class="fs-2">Facebook Marketplace</h3>
+         <h6>Pros:</h6>
+        <ul>
+            <li>Was able to quickly understand how to list my items, which shows learnability</li>
+            <li>Provided a short text tutorial on how to best sell items</li>
+        </ul>
+        <h6>Cons:</h6>
+        <ul>
+            <li>Users need a service where they can easily post second-hand items because services like Craigslist have bad reputations for safety standards</li>
+        </ul>
+        <h6>What we've learned:</h6>
+        <ul>
+            <li>Work to incorporate the simple and effective navigation by making where to add a donation site very obvious and easy to find</li>
+            <li>Add short text guide (less bothersome than a video tutorial) to help donation sites advertise their site the best</li>
+        </ul>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="photos/tu.png" class="img-fluid" width="50px" height="50px">
+        </div>
+        <h3 class="fs-2">ThredUp.com</h3>
+       <h6>Pros:</h6>
+        <ul>
+            <li>Allows users to shop second hand and donate their clothes for others to buy with the incentive of store credits</li>
+            <li>Encourages people to shop sustainably and have easier worldwide access to second hand consignment</li>
+            <li>Easy to navigate as it has a consistent search bar and aesthetic theme</li>
+            <li>Good with giving out discounts and deals</li>
+        </ul>
+        <h6>Cons:</h6>
+        <ul>
+            <li>Not as inclusive as it could be since there is no clothing option for men</li>
+            <li>Overwhelming, compressed, and too complex when using the mobile interface
+        </ul>
+        <h6>What we've learned:</h6>
+        <ul>
+            <li>Make sure that our app is inclusive to all and simple to navigate on all platforms</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <!-- feature ends -->
+
+                    <h3> Our Conclusion:</h3>
+                        <p class="lead">Through the competitor reviews, we’ve learned that many platforms that are for second hand consignment focus more on profit rather than promoting a sustainable lifestyle. The upcoming thrifting platforms are mostly catered to a younger audience and women, which is not easily inviting and inclusive for all. We also noticed that many of the local thrift shop websites are poorly developed and do not have an accessible format for finding donation information. We would like to focus on filling the gap between different generations to accommodate people of all ages, and cater towards people looking to donate and not sell their items.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- affinity map section-->
+        <section id="map">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Affinity Map</h2>
+                        <p class="lead">In order to better break down and understand our data from the interviews, we used an affinity map to track the biography, frustrations, needs/wants, goals/motivations, and technological issues of each of the participants we interviewed.</p>
+
+
+                        <!-- beginning of carousel -->
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <img src="photos/am1.png" alt="Creative Source Logo" class="img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="photos/am2.png" alt="Creative Source Logo" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ <!-- end of carousel -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Persona section-->
+        <section class="bg-light" id="persona">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Personas & Journey Maps</h2>
+
+
+  <div class="row">
+        <div class="column" style="background-color:light;">
+            <img src="photos/p1.png" alt="Creative Source Logo" class="img-fluid">
+        </div>
+        <div class="column" style="background-color:light;">
+            <img src="photos/p2.png" alt="Creative Source Logo" class="img-fluid">
+        </div>
+
+         <img src="photos/jm1.png" alt="Creative Source Logo" class="img-fluid">
+         <img src="photos/jm2.png" alt="Creative Source Logo" class="img-fluid">
+
+                </div>
+            </div>
+        </section>
+
+         <!-- Moodboard section-->
+        <section id="mood">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Moodboard</h2>
+
+                        <h3>Font</h3>
+                        <p class="lead">For the design process, we began with creating a mood board to settle on what aesthetic we wanted to convey through our application. We decided on a minimalistic and clean design so we chose two fonts that were simple enough and easy for users to read which were Montserrat and Open sans.</p>
+                        <img src="photos/font.png" alt="Creative Source Logo" class="img-fluid">
+
+                        <h3>Color Palette</h3>
+                         <p class="lead">For our color palette, we went for earth tones to reflect the sustainability aspect of our application. Our primary color variants would be shades of navy with accents of a sage green and off white or light gray.</p>
+                        <img src="photos/cp.png" alt="Creative Source Logo" class="img-fluid">
+
+                         <h3>Images</h3>
+                         <p class="lead"> Then, we collected images that we would need for the app such as photos of three different maps, one in color, light mode, and dark mode. </p>
+                        <img src="photos/pics.png" alt="Creative Source Logo" class="img-fluid">
+
+                         <h3>Inspiration</h3>
+                         <p class="lead"> To find some inspiration for the overall mood and design of our application, we found different sample designs for other apps that conveyed minimalistic and earth tone designs. Instead of sharp edges, we went for more rounded corners and soft shapes to add comfort and an organic feel to our app.</p>
+
+                          <!-- custom cards begins -->
+
+ <div class="container px-4 py-5" id="custom-cards">
+ <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('photos/sample.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('photos/sample2.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <ul class="d-flex list-unstyled mt-auto">
+              
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+               
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('photos/sample1.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 text-bg-light">
+            <h3><p>.<p>.<p>.<p>.<p>.<p>.<p>.<p>.<p>.</p></p></p></p></p></p></p></p></p></h3>
+            <ul class="d-flex list-unstyled mt-auto">
+             
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+               
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- custom cards end -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Usability section-->
+        <section class="bg-light" id="test">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                  
+
+                    <!-- feature begins -->
+
+                                          <main>
+  <h1 class="visually-hidden">Features examples</h1>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Usability Test</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        </div>
+        <h3 class="fs-2">Usability Testing Tasks</h3>
+       <ol>
+        <li>Sign up for Don8 by making an account and verifying it.</li>
+        <li>Plan a donation drop off at 2:00 pm, on nov 30th at Goodwill in Harrisonburg.</li>
+        <li>Filter the store results to stores that are currently accepting donations. </li>
+        <li>Promote a yard sale on Don8 by providing your event information and adding pictures of items that will be listed.</li>
+        <li>Set up pop up notifications for Tried and True to show when special events are occurring.</li>
+        <li>Locate 3 Thrift stores within 5 miles of Harrisonburg, and then find directions from your location.</li>
+</ol>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        </div>
+        <h3 class="fs-2">Questions</h3>
+          <ol>
+        <li>How do you feel when using the prototype?</li>
+        <li>What other tasks or features do you wish to see?</li>
+        <li>When you see the opening page, what do you think the app is about?</li>
+        <li>What are some difficulties while using the app?</li>
+        <li>How likely is it that you will use this app?</li>
+        <li>How frequently do you believe you will use this app?</li>
+         <li>How is your problem being solved?</li>
+</ol>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        </div>
+        <h3 class="fs-2">ThredUp.com</h3>
+       <h6>Briefing</h6>
+        <p>Our application’s name is Don8. It allows users who donate second hand items to more easily find information and instructions on how the donation process functions at specific donation sites. You can see donation sites nearby, schedule a pickup, and promote and find yard sales. </p>
+      </div>
+    </div>
+  </div>
+    <!-- feature ends -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Low-fid section-->
+        <section id="low">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Low-Fidelity Feedback</h2>
+                        <h3>Positive Feedback</h3>
+                        <p class="lead">The positive feedback we received mostly consisted of users finding the majority of our prototype to be very simple and intuitive. It did not make users think super hard and they understood how to complete most tasks. One of our follow up questions after users tested our prototype was “When you see the opening page, what do you think the app is about?” Participants responded that they knew right away that it was some sort of donation app. Another question we asked was “how frequently do you believe you will use this app?” participants responded with a range from once a month to monthly. Users completed each of our tasks fairly quickly spending about 10-20 seconds on each task. Creating an account was the simplest task, and users had no problems completing this task.  However, there were some areas of feedback that we will need to take into account in order to improve our design.</p>
+
+                        <h3>Feedback: What Needs Improvement</h3>
+                        <ol>
+                            <li><strong>Iconography:</strong> One user reported that the yard sale sign icon was not clear on the bottom navigation. They pointed to the icon and stated “I don’t know what that is.”</li>
+                            <li><strong>Clarity:</strong> Users struggled with where they are supposed to enter dates in the task of filtering. They also struggled with where to enter their address in the map task. </li>
+                            <li><strong>Placement:</strong> Users were unable to see some of the icons and buttons on the top right corner. </li>
+                            <li><strong>Navigation:</strong> On the pickup task, users were immediately prompted to allow or deny using their location, but there was no button to reach that point. One user said “is this where it starts?”</li>
+                        </ol>
+
+                            <h3>How We Will Improve Our Design</h3>
+                        <ol>
+                            <li><strong>Task/Flow 1</strong> - <u>Make an account/sign up:</u> We could add an autofill feature for returning users.</li>
+                            <li><strong>Task/Flow 2</strong> - <u>Plan a drop off:</u> we should add drop off and pick up to the navigation. We could add a page with a drop down menu that has the option to drop off or pickup and then the user will be prompted to pick a date to complete that action. 
+ </li>
+                            <li><strong>Task/Flow 3 </strong> - <u>Filter search results:</u> We can add more options for filtering.</li>
+                            <li><strong>Task/Flow 4</strong> - <u>Promote a yard sale:</u> We can move the plus icon lower so it is easier for users to see. </li>
+                            <li><strong>Task/Flow 5</strong> - <u>Setting up notifications:</u> We can add a small icon on the listing of the stores for a “quick notification pop-up”</li>
+                            <li><strong>Task/Flow 6</strong> - <u>Find a store nearby by entering your location:</u> Make it more clear where to type in an address and where to change from list view and map view. Also we could add different modes of transportation like walking. </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   <!-- high-fid section-->
+        <section class="bg-light" id="high">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>High-Fidelity Prototype</h2>
+
+   <p class="lead">After realizing the limitation of finding information on thrift stores' sites, we wanted to provide a better application that can help and encourage people to donate and do sustainable shopping. With that purpose, Don8 was created. Although our application design is not yet fully completed, we believe it would be helpful for users in their donating process. Overall, we have learned many aspects of designing an application. Besides how to use the assistant websites for the study such as Figma or Miro; team communication or usability testing. During the study, we had the opportunity to approach outside realistic experience by interviewing users, managers, and owners of local thrift stores. Because this was our first time, we had some difficulties in getting their interview acceptance. However, by going through this, now we have the experience so we can do better in the future. </p>
+
+  <div class="row">
+        <div class="column" style="background-color:light;">
+            <img src="photos/hi1.png" alt="Creative Source Logo" class="img-fluid">
+        </div>
+        <div class="column" style="background-color:light;">
+            <img src="photos/hi2.png" alt="Creative Source Logo" class="img-fluid">
+        </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Don8 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
